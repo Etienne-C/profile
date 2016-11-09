@@ -2,76 +2,101 @@
   <head>
     <meta charset="utf-8">
     <title>Basic info</title>
-
-    <!-- Google fonts -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
-
-    <!-- Fontawesome -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Your style -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-    <div class="container">
-      <div class="card text-center">
-        <img id="img-profile" src="https://pbs.twimg.com/profile_images/763751277109059584/qtAhIiMn.jpg" alt="Etienne">
-        <h1>Etienne Curati</h1>
-        <h2>Le Wagon alumni</h2>
-        <p>I help companies & startups to develop their business on internet. Desktop, tablet, mobile, I can help you to improve your product, acquire new users and develop your turnover.</p>
-      </div>
-
-      <div class="card text-center">
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/etienne.curati">
-              <i class="fa fa-facebook"></i></br> Facebook
-            </a>
-          </li>
-          <li>
-            <a href="https://fr.linkedin.com/in/etiennecurati">
-              <i class="fa fa-linkedin"></i></br> Linkedin
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/etienne_curati">
-              <i class="fa fa-twitter"></i></br> Twitter
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card">
-      <h2 class="text-center">My Experiences</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td><img class="img-medium" src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAfnAAAAJDFiMThmMGQxLWFkM2YtNDgwNy05MzUxLTlkZGZlZTM5ZDdjZg.png"></td>
-              <td>
-                <h3>Next Swipe</h3>
-                <p>I help companies & startups to develop their business on internet. Desktop, tablet, mobile, I can help you to improve your product, acquire new users and develop your turnover.</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img class="img-medium" src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAdWAAAAJGY3MDU0Yjg3LTNiYjEtNGYxYS1iYmVkLWI5YTc2YmM2NTNhNA.png"></td>
-              <td>
-                <h3>Wonderbox</h3>
-                <p>Wonderbox is the leader in the gift box market in Europe. The concept is a themed gift box with a guide and voucher that the receiver can exchange for an activity that he or she selects.</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img class="img-medium" src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAdSAAAAJGZhNDdkNTQwLTVlNjYtNGY5Zi1hYTI5LTE1ODFjZTVkYzMwNA.png"></td>
-              <td>
-                <h3>Figaro Classifieds</h3>
-                <p>Subsidiary of FIGARO GROUP, Figaro Classifieds is the internet services leader of classifieds in France.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+    <div id="sidebar">
+      <div class="menu text-center">
+        <a href="#summary"><i class="fa fa-info"></i></br></a></br></br>
+        <a href="#socials-links"><i class="fa fa-share-square-o"></i></br></a></br></br>
+        <a href="#experiences"><i class="fa fa-briefcase"></i></br></a></br></br>
+        <a href="#about"><i class="fa fa-bank"></i></br></a></br>
       </div>
     </div>
 
+    <div id="page-content">
+
+      <div class="container">
+
+        <div id="summary" class="card text-center">
+          <img id="img-profile" src="https://pbs.twimg.com/profile_images/763751277109059584/qtAhIiMn.jpg" alt="Etienne">
+          <h1>Etienne Curati</h1>
+          <h2>Le Wagon alumni</h2>
+          <p>I help companies & startups to develop their business on internet. Desktop, tablet, mobile, I can help you to improve your product, acquire new users and develop your turnover.</p>
+        </div>
+
+        <div id="socials-links" class="card text-center">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/etienne.curati">
+                <i class="fa fa-facebook"></i></br> Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://fr.linkedin.com/in/etiennecurati">
+                <i class="fa fa-linkedin"></i></br> Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/etienne_curati">
+                <i class="fa fa-twitter"></i></br> Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="experiences" class="card">
+          <h2 class="text-center">My Experiences</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td><img class="img-medium" src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAfnAAAAJDFiMThmMGQxLWFkM2YtNDgwNy05MzUxLTlkZGZlZTM5ZDdjZg.png"></td>
+                <td>
+                  <h3>Next Swipe</h3>
+                  <p>I help companies & startups to develop their business on internet. Desktop, tablet, mobile, I can help you to improve your product, acquire new users and develop your turnover.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img class="img-medium" src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAdWAAAAJGY3MDU0Yjg3LTNiYjEtNGYxYS1iYmVkLWI5YTc2YmM2NTNhNA.png"></td>
+                <td>
+                  <h3>Wonderbox</h3>
+                  <p>Wonderbox is the leader in the gift box market in Europe. The concept is a themed gift box with a guide and voucher that the receiver can exchange for an activity that he or she selects.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img class="img-medium" src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAdSAAAAJGZhNDdkNTQwLTVlNjYtNGY5Zi1hYTI5LTE1ODFjZTVkYzMwNA.png"></td>
+                <td>
+                  <h3>Figaro Classifieds</h3>
+                  <p>Subsidiary of FIGARO GROUP, Figaro Classifieds is the internet services leader of classifieds in France.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="about" class="card text-center">
+          <h2>About</h2>
+          <p>This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.</p>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-share"></i></a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-star"></i></a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

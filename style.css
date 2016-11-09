@@ -6,9 +6,36 @@ body {
   line-height: 1.5
 }
 
+#sidebar {
+  position: fixed;
+  background-color: #424242;
+  width: 10%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.menu {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu a:hover {
+  color : #59ABE3;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
 .container {
-  width: 500px;
-  margin : 50px auto 30px auto;
+  width: 90%;
+  margin : 20px auto 30px auto;
 }
 
 h1 {
@@ -58,7 +85,7 @@ ul li {
 
 #img-profile {
   border-radius: 50%;
-  width: 30%;
+  width: 200px;
   padding-top: 20px;
 }
 
